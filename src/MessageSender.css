@@ -1,0 +1,64 @@
+.messagesender{
+    
+    background-color: white;
+    width: 100%;
+   
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.messagesender__top{
+    display: flex;
+    align-items: center;
+   
+}
+.messagesender__top > form {
+   flex: 1;
+   display: flex;
+   
+}
+.messagesender__top > form > input {
+outline-width:0 ;
+border: none;
+padding: 10px 20px;
+margin :0px 10px;
+border-radius: 30px;
+background-color: #eff2f5;
+
+}
+.messagesender__top > form > button{
+    display: none;
+}
+
+.messagesender__input{
+    flex: 1;
+}
+
+
+.messagesender__bottom{
+    display: flex;
+
+    justify-content: space-evenly;
+   
+}
+.messagesender__option{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: gray;
+    margin: 5px;
+    
+   
+}
+
+.messagesender__option > h3{
+    font-size: medium;
+    margin-left: 10px;
+}
+.messagesender__option:hover{
+cursor: pointer;
+background-color: #eff2f5;
+border-radius: 10px ;
+
+}
